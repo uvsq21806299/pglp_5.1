@@ -8,6 +8,28 @@
  *
  * @author andri
  */
-public class PersonneDAO {
+public class PersonneDAO extends Dao<Personnel>{
+
+    @Override
+    public Personnel create(Personnel personne) {
+        return personne;
+    }
+
+    @Override
+    public Personnel find(String find) {
+        Personnel personne = null;
+        return personne;
+    }
+
+    @Override
+    public Personnel update(Personnel personne) {
+        return null;
+
+    }
+
+    @Override
+    public void delete(Personnel personne) {
+    }
+
     
 }
