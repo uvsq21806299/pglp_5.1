@@ -3,11 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package fr.uvsq.pglp_5;
 
 /**
  *
  * @author andri
  */
-class PersonnelList {
+public abstract class PersonnelList implements java.io.Serializable{
+    
+    protected String name;
+    public abstract void list();
     
 }

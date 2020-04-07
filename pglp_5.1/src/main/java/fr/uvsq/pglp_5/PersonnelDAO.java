@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package fr.uvsq.pglp_5;
+
 
 /**
  *
  * @author andri
  */
-public class PersonneDAO extends Dao<Personnel>{
+public class PersonnelDAO extends DAO<Personnel>{
 
     @Override
     public Personnel create(Personnel personne) {
