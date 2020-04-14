@@ -30,7 +30,7 @@ public class CompositePersonnel extends PersonnelList implements java.io.Seriali
     
     @Override
     public void list(){
-        System.out.println("Cecic est " + name );
+        System.out.println("Ceci est " + name );
     }
     
     public void add(PersonnelList personnel){

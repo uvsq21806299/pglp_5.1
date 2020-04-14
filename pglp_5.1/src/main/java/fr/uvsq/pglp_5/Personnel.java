@@ -12,7 +12,7 @@ import java.util.ArrayList;
  *
  * @author andri
  */
-public class Personnel implements java.io.Serializable{
+public class Personnel extends PersonnelList implements java.io.Serializable{
     
     private final String nom;
 		private final String prenom;
@@ -21,7 +21,8 @@ public class Personnel implements java.io.Serializable{
 		private final LocalDate dateNaiss;
 		private final ArrayList<Integer> numeroTel;
 		// Classe Builder 
-		
+
+    		
 		public static class Builder{
 
 			private final String nom;
@@ -98,5 +99,11 @@ public class Personnel implements java.io.Serializable{
                             + "  " + this.nom +  "  " + this.prenom);
                     
                 }
+                
+                @Override
+                public void list() {
+                throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+                }
+
     
 }
