@@ -53,6 +53,11 @@
                     </reportSet>
                 </reportSets>
             </plugin>
+            <plugin>
+                <groupId>com.github.spotbugs</groupId>
+                <artifactId>spotbugs-maven-plugin</artifactId>
+                <version>4.0.0</version>        
+      </plugin>
         </plugins>  
     </reporting>
     
@@ -69,6 +74,11 @@
             <version>1.3</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.github.spotbugs</groupId>
+            <artifactId>spotbugs</artifactId>
+            <version>4.0.1</version>
+    </dependency> 
     </dependencies>
     
 </project>
